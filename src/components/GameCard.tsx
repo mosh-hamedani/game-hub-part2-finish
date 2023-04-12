@@ -3,12 +3,10 @@ import {
   CardBody,
   Heading,
   HStack,
-  Image,
-  Text,
+  Image
 } from '@chakra-ui/react';
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { Game } from '../entities/Game';
+import Game from '../entities/Game';
 import getCroppedImageUrl from '../services/image-url';
 import CriticScore from './CriticScore';
 import Emoji from './Emoji';
